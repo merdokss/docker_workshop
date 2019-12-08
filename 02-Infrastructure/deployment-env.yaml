@@ -1,0 +1,39 @@
+  
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: contosouniversity
+  labels:
+    app: contosouniversity
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: contosouniversity
+  template:
+    metadata:
+      labels:
+        app: contosouniversity
+    spec:
+      containers:
+      - name: contosouniversity
+        image: csharkworkshop.azurecr.io/contosouniversity:v5.0
+        ports:
+        - name: http
+          protocol: TCP
+          containerPort: 80
+        env:
+        - name: ConnectionStrings__SchoolContext
+          value: "Server=tcp:db-mssql-linux.lukasz.svc;Database=dama;User Id=sa;Password=Pass@word;MultipleActiveResultSets=true"
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 10
+          periodSeconds: 3
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+      imagePullSecrets:
+       - name: regcred

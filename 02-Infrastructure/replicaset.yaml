@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: ReplicaSet
+metadata:
+  name: contosouniversity-rc
+  labels:
+    app: contosouniversity
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: contosouniversity
+  template:
+    metadata:
+      labels:
+        app: contosouniversity
+    spec:
+      containers:
+      - name: contosouniversity
+        image: csharkworkshop.azurecr.io/contosouniversity:v1.0
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+      - name: regcred

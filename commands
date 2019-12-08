@@ -1,0 +1,25 @@
+Pod
+kubectl get pods
+kubectl logs pod 
+kubectl describe pod
+kubectl attach my-pod -i                            # Attach to Running Container
+kubectl port-forward my-pod 5000:6000               # Listen on port 5000 on the local machine and forward to port 6000 on my-pod
+kubectl exec my-pod -- ls /                         # Run command in existing pod (1 container case)
+kubectl exec my-pod -c my-container -- ls /         # Run command in existing pod (multi-container case)
+kubectl top pod POD_NAME --containers               # Show metrics for a given pod and its containers
+
+Deployment
+kubectl scale --replicas=3 deploy/contosouniversity
+
+kubectl set image deploy/contosouniversity contosouniversity=csharkworkshop.azurecr.io/contosouniversity:v1.1  --record=true
+
+kubectl rollout history deploy/contosouniversity
+kubectl rollout status deploy/contosouniversity
+kubectl rollout undo deploy/contosouniversity
+kubectl rollout undo deployment/deploy/contosouniversity --to-revision=2 
+
+Secrets
+kubectl create secret docker-registry regcred --docker-server=csharkworkshop.azurecr.io --docker-username=csharkworkshop --docker-password=YWvndyQbXV9gcG6tHMZd10cnF+Co6Tpv --docker-email=dawid.marniok@cshark.con
+kubectl create secret generic connectionstring --from-literal=SchoolContext='Server=tcp:db-mssql-linux.lukasz.svc;Database=dama;User Id=sa;Password=Pass@word;MultipleActiveResultSets=true'
+
+
