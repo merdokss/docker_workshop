@@ -1,1 +1,21 @@
 Podstawowe Komendy:
+docker ps
+docker images
+docker pull
+
+docker run
+docker run --name test -d -p 8080:80 -v /Users/dawidmarniok/Elements:/usr/share/nginx/html:ro nginx
+
+docker start
+docker stop
+
+docker logs
+
+docker attach
+docker exec -it 
+
+docker cp 
+
+docker commit
+
+Komendy: Tworzenie i zarządzanie obrazami
