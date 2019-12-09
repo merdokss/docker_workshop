@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/ContosoUniversity.csproj",
+  "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/ContosoUniversity.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14344,143 +14344,143 @@
   "RootNamespace": "ContosoUniversity",
   "Documents": [
     {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Instructors/Create.cshtml",
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Instructors/Create.cshtml",
       "TargetPath": "Pages/Instructors/Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Students/Index.cshtml",
-      "TargetPath": "Pages/Students/Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Students/Details.cshtml",
-      "TargetPath": "Pages/Students/Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Courses/Index.cshtml",
-      "TargetPath": "Pages/Courses/Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Shared/_Layout.cshtml",
-      "TargetPath": "Pages/Shared/_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Courses/Delete.cshtml",
-      "TargetPath": "Pages/Courses/Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Instructors/Edit.cshtml",
-      "TargetPath": "Pages/Instructors/Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/About.cshtml",
-      "TargetPath": "Pages/About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Students/Delete.cshtml",
-      "TargetPath": "Pages/Students/Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Instructors/Details.cshtml",
-      "TargetPath": "Pages/Instructors/Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Departments/Create.cshtml",
-      "TargetPath": "Pages/Departments/Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Departments/Details.cshtml",
-      "TargetPath": "Pages/Departments/Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Departments/Delete.cshtml",
-      "TargetPath": "Pages/Departments/Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/_ViewImports.cshtml",
-      "TargetPath": "Pages/_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Students/Edit.cshtml",
-      "TargetPath": "Pages/Students/Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Instructors/Index.cshtml",
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Instructors/Index.cshtml",
       "TargetPath": "Pages/Instructors/Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Index.cshtml",
-      "TargetPath": "Pages/Index.cshtml",
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Courses/Index.cshtml",
+      "TargetPath": "Pages/Courses/Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/_ViewStart.cshtml",
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/_ViewStart.cshtml",
       "TargetPath": "Pages/_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Courses/Delete.cshtml",
+      "TargetPath": "Pages/Courses/Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Departments/Index.cshtml",
-      "TargetPath": "Pages/Departments/Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Privacy.cshtml",
-      "TargetPath": "Pages/Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Students/Create.cshtml",
-      "TargetPath": "Pages/Students/Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Departments/Edit.cshtml",
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Departments/Edit.cshtml",
       "TargetPath": "Pages/Departments/Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Courses/Edit.cshtml",
-      "TargetPath": "Pages/Courses/Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Instructors/Delete.cshtml",
-      "TargetPath": "Pages/Instructors/Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Courses/Create.cshtml",
-      "TargetPath": "Pages/Courses/Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Courses/Details.cshtml",
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Courses/Details.cshtml",
       "TargetPath": "Pages/Courses/Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/dawidmarniok/Documents/cshark/Git_repos/sharkshop-kubernetes/03-ContosoUniversity/src/Pages/Error.cshtml",
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Error.cshtml",
       "TargetPath": "Pages/Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Instructors/Delete.cshtml",
+      "TargetPath": "Pages/Instructors/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Departments/Create.cshtml",
+      "TargetPath": "Pages/Departments/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Students/Create.cshtml",
+      "TargetPath": "Pages/Students/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Students/Details.cshtml",
+      "TargetPath": "Pages/Students/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Departments/Delete.cshtml",
+      "TargetPath": "Pages/Departments/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Courses/Create.cshtml",
+      "TargetPath": "Pages/Courses/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Courses/Edit.cshtml",
+      "TargetPath": "Pages/Courses/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Shared/_Layout.cshtml",
+      "TargetPath": "Pages/Shared/_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages/_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/About.cshtml",
+      "TargetPath": "Pages/About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Instructors/Edit.cshtml",
+      "TargetPath": "Pages/Instructors/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Students/Delete.cshtml",
+      "TargetPath": "Pages/Students/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Students/Edit.cshtml",
+      "TargetPath": "Pages/Students/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Students/Index.cshtml",
+      "TargetPath": "Pages/Students/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Index.cshtml",
+      "TargetPath": "Pages/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Departments/Index.cshtml",
+      "TargetPath": "Pages/Departments/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Instructors/Details.cshtml",
+      "TargetPath": "Pages/Instructors/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Departments/Details.cshtml",
+      "TargetPath": "Pages/Departments/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dawidmarniok/Documents/Atom-tech/git/docker_workshop/ContosoUniversity/src/Pages/Privacy.cshtml",
+      "TargetPath": "Pages/Privacy.cshtml",
       "FileKind": "mvc"
     }
   ],
