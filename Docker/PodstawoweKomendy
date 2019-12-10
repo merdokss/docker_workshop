@@ -8,6 +8,7 @@ docker run --name test -d -p 8080:80 -v /Users/dawidmarniok/Elements:/usr/share/
 
 docker start
 docker stop
+docker rm
 
 docker logs
 
@@ -18,4 +19,18 @@ docker cp
 
 docker commit
 
-Komendy: Tworzenie i zarządzanie obrazami
+docker network
+docker network create -d bridge network-1
+
+
+Tworzenie i zarządzanie obrazami
+docker images
+docker save
+docker load
+
+docker build
+docker build -t name-image -f dockerfile .
+
+smgregistry.azurecr.io
+smgregistry
+30/XYQINT90bZoL=chiHuo7XCaz8kZPG
