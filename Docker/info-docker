@@ -15,3 +15,10 @@ sudo cp ca.crt /usr/local/share/ca-certificates/dtrlb-mugfwonmh6wu4.northeurope.
 sudo update-ca-certificates
 
 docker pull dtrlb-mugfwonmh6wu4.northeurope.cloudapp.azure.com/ddcadmin/workshop
+
+
+https://dtrlb-mugfwonmh6wu4.northeurope.cloudapp.azure.com/repositories/ddcadmin/workshop/details - Docker Trusted Registry
+ddcadmin
+dccadmin
+
+https://ucplb-mugfwonmh6wu4.northeurope.cloudapp.azure.com/manage/resources/stacks/create - UCP
