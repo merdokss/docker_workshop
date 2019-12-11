@@ -31,6 +31,9 @@ docker load
 docker build
 docker build -t name-image -f dockerfile .
 
+Registry - private
 smgregistry.azurecr.io
 smgregistry
 30/XYQINT90bZoL=chiHuo7XCaz8kZPG
+
+Docker EE 

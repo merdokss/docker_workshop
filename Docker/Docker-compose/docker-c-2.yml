@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  nginx:
+    container_name: nginx-compose
+    image: nginx:latest
+    ports:
+      - "9999:80"
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
+        delay: 15s
+      # volumes:
+
+        
+    

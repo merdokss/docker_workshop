@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  nginx:
+    container_name: nginx-compose
+    image: nginx
+    ports:
+      - "9999:80"
+    # build:
+    #   context: .
+    #   dockerfile: CShark.Platform.NotificationService/Dockerfile
+
+  # cassandra:
+  #   image: cassandra
+  #   restart: always
