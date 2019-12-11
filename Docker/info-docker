@@ -7,3 +7,9 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 sudo apt-get update
 sudo apt install -y docker-ce docker-ce-cli containerd.io
+
+git clone https://github.com/docker/docker-bench-security.git
+
+curl -k -o ca.crt https://dtrlb-mugfwonmh6wu4.northeurope.cloudapp.azure.com/ca
+sudo cp ca.crt /usr/local/share/ca-certificates/dtrlb-mugfwonmh6wu4.northeurope.cloudapp.azure.com.crt
+sudo update-ca-certificates
