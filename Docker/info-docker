@@ -14,8 +14,9 @@ curl -k -o ca.crt https://dtrlb-mugfwonmh6wu4.northeurope.cloudapp.azure.com/ca
 sudo cp ca.crt /usr/local/share/ca-certificates/dtrlb-mugfwonmh6wu4.northeurope.cloudapp.azure.com.crt
 sudo update-ca-certificates
 
-docker pull dtrlb-mugfwonmh6wu4.northeurope.cloudapp.azure.com/ddcadmin/workshop
+docker push dtrlb-mugfwonmh6wu4.northeurope.cloudapp.azure.com/andrzej/nginx
 
+docker login dtrlb-mugfwonmh6wu4.northeurope.cloudapp.azure.com
 
 https://dtrlb-mugfwonmh6wu4.northeurope.cloudapp.azure.com/repositories/ddcadmin/workshop/details - Docker Trusted Registry
 ddcadmin

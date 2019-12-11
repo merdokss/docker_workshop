@@ -1,0 +1,6 @@
+Docker Swarm
+
+Docker Stack Deploy
+docker stack deploy --compose-file ... name
+
+

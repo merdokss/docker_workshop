@@ -36,4 +36,9 @@ smgregistry.azurecr.io
 smgregistry
 30/XYQINT90bZoL=chiHuo7XCaz8kZPG
 
-Docker EE 
+DockerSwarm
+
+Worker
+    docker swarm join --token SWMTKN-1-3v46eopy9qulnly3ec8fdtmxkivb0dp2ki66do4l5oip0c7fe6-7zh0y5x0sndw6dtzhkyaq0vs9 172.31.0.12:2377
+Master:
+    docker swarm join --token SWMTKN-1-3v46eopy9qulnly3ec8fdtmxkivb0dp2ki66do4l5oip0c7fe6-9oxckpe5eacrob5zxm397olly 172.31.0.12:2377
