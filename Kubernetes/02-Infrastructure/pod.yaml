@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: contosouniversity-test
+  name: nginx-test
   labels:
-    app: contosouniversity
+    app: nginx
 spec:
   containers:
-  - image: csharkworkshop.azurecr.io/contosouniversity:v1.0
-    name: contosouniversity
-  imagePullSecrets:
-  - name: regcred
+  - name: nginx
+    image: nginx:latest
+    ports:
+      - containerPort: 80

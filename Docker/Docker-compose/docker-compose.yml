@@ -1,16 +1,24 @@
 version: '3.4'
 services:
-  nginx:
-    container_name: nginx-compose
-    image: nginx
+  contosouniversity:
+    container_name: contosouniversity
+    image: contoso:v1
+    build:
+      context: .
     ports:
       - "9999:80"
-    volumes: 
-      - ".:/"
-    # build:
-    #   context: .
-    #   dockerfile: CShark.Platform.NotificationService/Dockerfile
+    depends_on:
+      - mssql
+    environment:
+      ASPNETCORE_ENVIRONMENT: 'Development'
+      ConnectionStrings__SchoolContext: "Server=tcp:mssql;Database=contoso;User Id=sa;Password=Pass@word;MultipleActiveResultSets=true"
 
-  # cassandra:
-  #   image: cassandra
-  #   restart: always
+  
+  mssql:
+    container_name: mssql
+    image: mcr.microsoft.com/mssql/server
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "Alaska2017"
+      ACCEPT_EULA: "Y"
