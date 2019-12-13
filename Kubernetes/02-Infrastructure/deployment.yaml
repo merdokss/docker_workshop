@@ -1,31 +1,33 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: contosouniversity
+  name: apache
   labels:
-    app: contosouniversity
+    app: apache
 spec:
-  replicas: 4
+  replicas: 1
   selector:
     matchLabels:
-      app: contosouniversity
+      app: apache
   template:
     metadata:
       labels:
-        app: contosouniversity
+        app: apache
     spec:
       containers:
-        - name: contosouniversity
-          image: csharkworkshop.azurecr.io/contosouniversity:v1.1
+        - name: apache
+          image: httpd:2.4.39
+          volumeMounts:
+          - readOnly: true
+            name: config-volume
+            mountPath: /tmp/
           ports:
             - name: http
               protocol: TCP
               containerPort: 80
-          readinessProbe:
-            httpGet:
-              path: /
-              port: 80
-            initialDelaySeconds: 10
-            periodSeconds: 3
-      imagePullSecrets:
-        - name: regcred
+      volumes:
+        - name: config-volume
+          configMap:
+        # Provide the name of the ConfigMap containing the files you want
+        # to add to the container
+            name: httpd-conf1

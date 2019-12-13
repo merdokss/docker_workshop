@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:  
-  name: contosouniversity-lb
+  name: nginx-lb
 spec:
   selector:    
-    app: contosouniversity
+    app: nginx
   type: LoadBalancer
   ports:  
   - name: http
