@@ -1,3 +1,6 @@
+az login --service-principal -u http://MyApp -p 8b3782fd-1637-47aa-8590-099d74bb275a --tenant 14820cf7-d54a-4d85-9d98-1825fc5bebd6
+az aks get-credentials --resource-group dna-dev --name clusterdemo
+
 Pod
 kubectl get pods
 kubectl logs pod 
@@ -26,4 +29,3 @@ ConfigMaps
 kubectl create configmap httpd-conf --from-file=Kubernetes/Objects/05-SecretsConfigMaps/httpd.conf
 
 
-az login --service-principal -u http://MyApp -p 8b3782fd-1637-47aa-8590-099d74bb275a --tenant 14820cf7-d54a-4d85-9d98-1825fc5bebd6
