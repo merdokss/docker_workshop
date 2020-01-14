@@ -9,17 +9,21 @@ kubectl exec my-pod -c my-container -- ls /         # Run command in existing po
 kubectl top pod POD_NAME --containers               # Show metrics for a given pod and its containers
 
 Deployment
-kubectl scale --replicas=3 deploy/contosouniversity
-
+kubectl scale --replicas=3 deployment/apache
+kubectl autoscale deployment/apache --min=2 --max=6 --cpu-percent=80
 kubectl set image deploy/contosouniversity contosouniversity=csharkworkshop.azurecr.io/contosouniversity:v1.1  --record=true
-
+kubectl set resources deploy/contosouniversity -c=apache --limits=cpu=200m,memory=512Mi
 kubectl rollout history deploy/contosouniversity
 kubectl rollout status deploy/contosouniversity
 kubectl rollout undo deploy/contosouniversity
 kubectl rollout undo deployment/deploy/contosouniversity --to-revision=2 
 
 Secrets
-kubectl create secret docker-registry regcred --docker-server=csharkworkshop.azurecr.io --docker-username=csharkworkshop --docker-password=YWvndyQbXV9gcG6tHMZd10cnF+Co6Tpv --docker-email=dawid.marniok@cshark.con
+kubectl create secret docker-registry external-registry --docker-server=damaregistry.azurecr.io --docker-username=damaregistry --docker-password=YCKfkOCgcuyhMKR9slTH+gtEZdPBQf2Z --docker-email=dawid.marniok@gmail.com
 kubectl create secret generic connectionstring --from-literal=SchoolContext='Server=tcp:db-mssql-linux.lukasz.svc;Database=dama;User Id=sa;Password=Pass@word;MultipleActiveResultSets=true'
 
+ConfigMaps
+kubectl create configmap httpd-conf --from-file=Kubernetes/Objects/05-SecretsConfigMaps/httpd.conf
 
+
+az login --service-principal -u http://MyApp -p 8b3782fd-1637-47aa-8590-099d74bb275a --tenant 14820cf7-d54a-4d85-9d98-1825fc5bebd6

@@ -31,4 +31,4 @@ spec:
           configMap:
         # Provide the name of the ConfigMap containing the files you want
         # to add to the container
-            name: httpd-conf1
+            name: httpd-conf
