@@ -1,4 +1,3 @@
-kubectl create serviceaccount --namespace kube-system tiller
-kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
-helm init --service-account tiller --upgrade
-helm init --service-account=tiller --history-max 300
+sudo snap install helm
+helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+helm search repo stable/tomcat
